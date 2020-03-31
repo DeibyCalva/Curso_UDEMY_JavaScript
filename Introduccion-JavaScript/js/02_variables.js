@@ -27,3 +27,14 @@ var auto = {
 }
 console.log("auto", auto);
 console.log("auto", auto.marca);
+
+// variables DOM
+var caja = document.querySelector("#caja");
+console.log("caja", caja);
+
+caja.style.width = "600px";
+caja.style.height = "600px";
+caja.style.background = "green";
+
+var cajas = document.querySelectorAll(".cajas")
+console.log("cajas", cajas)
